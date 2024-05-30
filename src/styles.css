@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #f3f1ed;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  display: auto;
+}
+
+section {
+  width: 100%;
+  height: 200vh;
+  z-index: 1;
+  pointer-events: all;
+  background-color: #eaebea;
+  display: flex;
+  flex-direction: column;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+}
+
+
+/* SECTION 1  */
+
+.one-content {
+  width: 100%;
+  height: 100%;
+  background-color: #fefeff;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  padding: 2.5%;
+}
+
+.one-content-inside {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+}
+
+.border {
+  height: 1px;
+  width: 100%;
+  background-color: #eaebea;
+}
+
+/* INTRODUCTION */
+
+.introduction {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+}
+
+.profile-picture {
+  width: 2.75vw;
+  height: 2.75vw;
+  border-radius: 50%;
+  background-color:#252425;
+}
+
+.introduction-name {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 1.45vw;
+  line-height: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #252425;
+}
+
+.introduction-skills {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1.1vw;
+  line-height: 125%;
+  margin-top: 0;
+  margin-bottom: 0;
+  color:#676666;
+}
+
+.introduction-socials {
+  display: flex;
+  gap: 1vw;
+}
+
+.fa-brands {
+  font-size: 1.5vw;
+  color: #252425;
+}
+
+/* ABOUT */
+
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+}
+
+.about-text {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 1.45vw;
+  line-height: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #252425;
+}
+
+.about-description {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1.1vw;
+  line-height: 125%;
+  margin-top: 0;
+  margin-bottom: 0;
+  color:#676666;
+}
+
+/* EXPERIENCE */
+
+.experience {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  position: relative;
+}
+
+.experience-text {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 1.45vw;
+  line-height: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #252425;
+}
+
+.experience-description {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 1.1vw;
+  line-height: 125%;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #252425;
+}
+
+.experience-small-description {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 0.95vw;
+  line-height: 125%;
+  margin-top: 0;
+  margin-bottom: 0;
+  color:#676666;
+}
+
+ul {
+  padding-left: 1.75vw;
+  z-index: 1;
+  position: relative;
+}
+
+li {
+  margin-left: 0;
+  margin-bottom: 5vh;
+  position: relative;
+  z-index: 1;
+}
+
+li::marker {
+  font-size: 2vw; 
+  z-index: 2;
+}
+
+.grey-marker {
+  color: #252425;
+}
+
+.light-grey-marker {
+  color: #eaebea;
+}
+
+.list-border {
+  width: 1px;
+  height: 100%;
+  background-color: #eaebea;
+  position: absolute;
+  margin-left: -1.25vw;
+  z-index: 0;
+}
+
+/* PROJECTS */
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+}
+
+.projects-text {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 1.45vw;
+  line-height: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #252425;
+}
+
+.projects-description {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1.1vw;
+  line-height: 125%;
+  margin-top: 0;
+  margin-bottom: 0;
+  color:#676666;
+}
+
+
+/* SMOOTH SCROLL */
+
+html.lenis {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
+
+@media only screen and (max-width: 768px) {
+}
