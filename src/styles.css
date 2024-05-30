@@ -27,8 +27,8 @@ section {
   background-color: #eaebea;
   display: flex;
   flex-direction: column;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
   padding-top: 5%;
 }
 
@@ -43,7 +43,7 @@ section {
   border-top-right-radius: 25px;
   display: flex;
   flex-direction: column;
-  padding: 2.5%;
+  padding: 2.5% 4%;
 }
 
 .one-content-inside {
@@ -212,7 +212,7 @@ li::marker {
 .projects {
   display: flex;
   flex-direction: column;
-  gap: 2vh;
+  gap: 5vh;
 }
 
 .projects-text {
@@ -229,6 +229,56 @@ li::marker {
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 1.1vw;
+  line-height: 125%;
+  margin-top: 0;
+  margin-bottom: 0;
+  color:#676666;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; /* Added */
+  gap: 5vw;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  width: 16vw;
+  height: fit-content;
+  gap: 1vh;
+}
+
+.project-icon {
+  width: 2vw;
+  height: 2vw;
+  border-radius: 10px;
+  background-color: #181818;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fa-solid {
+  color: #eaebea;
+  font-size: 0.8vw;
+}
+
+.project-title {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 1.1vw;
+  line-height: 125%;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #252425;
+}
+
+.project-description {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 0.95vw;
   line-height: 125%;
   margin-top: 0;
   margin-bottom: 0;

@@ -9,7 +9,7 @@ export const Section1 = () => {
           <div className="introduction" >
             <div className="profile-picture" />
             <h1 className="introduction-name">Rainer Ahi</h1>
-            <h1 className="introduction-skills">Engineer & Designer</h1>
+            <h1 className="introduction-skills">Entrepreneur, Developer & Athlete</h1>
             <div className="introduction-socials">
               <i class="fa-brands fa-twitter"></i>
               <i class="fa-brands fa-instagram"></i>
@@ -58,6 +58,49 @@ export const Section1 = () => {
 
           <div className="projects">
             <h1 className="projects-text" >Projects</h1>
+            <div className="projects-container" >
+
+              <div className="project">
+                <div className="project-icon">
+                  <i class="fa-solid fa-layer-group"></i>
+                </div>
+                <h1 className="project-title" >SyntaxUI</h1>
+                <h1 className="project-description" >Free-to-use UI elements designed for rapid development.</h1>
+              </div>
+
+              <div className="project">
+                <div className="project-icon">
+                  <i class="fa-solid fa-layer-group"></i>
+                </div>
+                <h1 className="project-title" >Prettyfolio</h1>
+                <h1 className="project-description" >A curated collection of portfolios for inspiration.</h1>
+              </div>
+
+              <div className="project">
+                <div className="project-icon">
+                  <i class="fa-solid fa-layer-group"></i>
+                </div>
+                <h1 className="project-title" >Enchant</h1>
+                <h1 className="project-description" >A vibrant theme for Visual Studio Code.</h1>
+              </div>
+
+              <div className="project">
+                <div className="project-icon">
+                  <i class="fa-solid fa-layer-group"></i>
+                </div>
+                <h1 className="project-title" >Rainerahi.com</h1>
+                <h1 className="project-description" >My personal website, blogs and newsletter.</h1>
+              </div>
+
+              <div className="project">
+                <div className="project-icon">
+                  <i class="fa-solid fa-layer-group"></i>
+                </div>
+                <h1 className="project-title" >Quote Vault</h1>
+                <h1 className="project-description" >Social media, but for sharing quotes.</h1>
+              </div>
+
+            </div>
           </div>
 
         </div>
